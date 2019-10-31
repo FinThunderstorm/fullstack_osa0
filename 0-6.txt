@@ -1,0 +1,15 @@
+selain->palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+palvelin-->selain: JSON: {message: "note created"}
+
+
+note over selain:
+selain lähettää HTTP Post pyynnön sisältäen uuden 
+ja saa palautuksena onnistumisviestin
+end note
+
+
+note over selain:
+selain samalla lisää lokaalille listalle uuden
+muistiinpanon ja piirtää sen. Muistiinpanojen lista
+ladataan vasta uudelleen kun sivu reloadataan.
+end note
